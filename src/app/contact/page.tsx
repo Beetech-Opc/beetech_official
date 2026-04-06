@@ -16,16 +16,16 @@ export const metadata: Metadata = {
   description: "Get in touch with Beetech World — we'd love to hear from you.",
 };
 
-const EMAIL = "beetechopc@gmail.com";
+const EMAIL = "beetech24@gmail.com";
 const PHONE = "+8801324763476";
 const GMAIL_COMPOSE = `https://mail.google.com/mail/?view=cm&to=${EMAIL}&su=Inquiry+from+Beetech+Website&body=Hello+Beetech+Team,%0D%0A%0D%0A`;
 
 export default function ContactPage() {
   return (
-    <section className="py-20 sm:py-24">
+    <section className="pt-8 pb-16 sm:pt-12 sm:pb-20">
       <div className="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
         {/* Header */}
-        <div className="mx-auto mb-16 max-w-2xl text-center">
+        <div className="mx-auto mb-12 max-w-2xl text-center">
           <span className="inline-block text-sm font-semibold uppercase tracking-widest text-primary mb-3">
             Reach Out
           </span>
@@ -38,7 +38,7 @@ export default function ContactPage() {
         </div>
 
         {/* Primary CTA — Email */}
-        <div className="mx-auto mb-16 max-w-2xl">
+        <div className="mx-auto mb-12 max-w-2xl">
           <div className="relative overflow-hidden rounded-3xl bg-gradient-to-br from-primary via-primary to-primary/90 p-8 sm:p-12 text-center text-primary-foreground shadow-2xl shadow-primary/20">
             <div className="absolute inset-0 bg-[radial-gradient(circle_at_30%_50%,white/10,transparent_60%)]" />
             <div className="absolute inset-0 bg-[radial-gradient(circle_at_70%_80%,white/5,transparent_50%)]" />
@@ -146,7 +146,7 @@ export default function ContactPage() {
         </div>
 
         {/* Address Section */}
-        <div className="mt-16">
+        <div className="mt-12">
           <Card className="overflow-hidden border-border/60">
             <div className="grid lg:grid-cols-2">
               {/* Map placeholder */}
@@ -194,7 +194,7 @@ export default function ContactPage() {
                 </p>
                 <div className="space-y-4">
                   {[
-                    { icon: Mail, label: "beetechopc@gmail.com", href: GMAIL_COMPOSE },
+                    { icon: Mail, label: "beetech24@gmail.com", href: GMAIL_COMPOSE },
                     { icon: Phone, label: "+880 1324-763476", href: `tel:${PHONE}` },
                   ].map((item) => (
                     <Link

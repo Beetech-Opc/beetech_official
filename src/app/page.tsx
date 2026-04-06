@@ -29,7 +29,7 @@ export default function HomePage() {
           <div className="absolute bottom-0 left-0 w-72 h-72 bg-primary/5 rounded-full blur-3xl" />
         </div>
 
-        <div className="mx-auto max-w-6xl px-4 py-28 sm:px-6 sm:py-36 lg:px-8 lg:py-44">
+        <div className="mx-auto max-w-6xl px-4 py-20 sm:px-6 sm:py-28 lg:px-8 lg:py-36">
           <div className="mx-auto max-w-3xl text-center">
             <div className="mb-8 inline-flex items-center gap-2 rounded-full border border-primary/20 bg-primary/5 px-5 py-2 text-sm font-medium text-primary">
               <Zap className="size-3.5" />
@@ -83,7 +83,7 @@ export default function HomePage() {
       </section>
 
       {/* Who We Are */}
-      <section className="py-24">
+      <section className="py-16 sm:py-20">
         <div className="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
           <div className="grid gap-12 lg:grid-cols-2 lg:items-center">
             <div>
@@ -133,9 +133,9 @@ export default function HomePage() {
       </section>
 
       {/* Beetech Ecosystem */}
-      <section className="py-24 bg-muted/30">
+      <section className="py-16 sm:py-20 bg-muted/30">
         <div className="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
-          <div className="mx-auto mb-14 max-w-2xl text-center">
+          <div className="mx-auto mb-12 max-w-2xl text-center">
             <span className="inline-block text-sm font-semibold uppercase tracking-widest text-primary mb-3">
               Our Platforms
             </span>
@@ -205,7 +205,7 @@ export default function HomePage() {
       </section>
 
       {/* CTA Section */}
-      <section className="py-24">
+      <section className="py-16 sm:py-20">
         <div className="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
           <div className="relative overflow-hidden rounded-3xl bg-gradient-to-br from-primary via-primary to-primary/90 px-8 py-20 text-center text-primary-foreground shadow-2xl shadow-primary/20">
             <div className="absolute inset-0 bg-[radial-gradient(circle_at_30%_50%,white/10,transparent_60%)]" />

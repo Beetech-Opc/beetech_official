@@ -10,10 +10,10 @@ export const metadata: Metadata = {
 
 export default function PolicyPage() {
   return (
-    <section className="py-20 sm:py-24">
+    <section className="pt-8 pb-16 sm:pt-12 sm:pb-20">
       <div className="mx-auto max-w-3xl px-4 sm:px-6 lg:px-8">
         {/* Page Header */}
-        <div className="mb-14 text-center">
+        <div className="mb-12 text-center">
           <div className="mx-auto mb-5 flex size-14 items-center justify-center rounded-2xl bg-primary/10">
             <Shield className="size-7 text-primary" />
           </div>
@@ -32,13 +32,13 @@ export default function PolicyPage() {
         <article className="space-y-6">
           <SectionHeader icon={FileText} title="নীতিমালা (Policy)" />
           <p className="leading-relaxed text-muted-foreground">
-            Beetech ব্য���হার করার মাধ্যমে আপনি নিম্নোক্ত নীতিমালা মেনে চলতে সম্মত
+            Beetech ব্যবহার করার মাধ্যমে আপনি নিম্নোক্ত নীতিমালা মেনে চলতে সম্মত
             হচ্ছেন।
           </p>
 
           <ol className="list-none space-y-4 pl-0">
             <PolicyItem number="১">
-              কাস্টমার বিটেক আউটলেট থেকে বাংলাদেশ আইনানুযায়ী সকল বৈধ পণ���য বা
+              কাস্টমার বিটেক আউটলেট থেকে বাংলাদেশ আইনানুযায়ী সকল বৈধ পণ্য বা
               সেবা ক্রয় করবে।
             </PolicyItem>
 
@@ -47,7 +47,7 @@ export default function PolicyPage() {
               অনুযায়ী নির্দিষ্ট (Fixed) পরিমাণ টাকা পয়েন্ট হিসেবে সংগ্রহ করবে।
             </PolicyItem>
 
-            <PolicyItem number="��">
+            <PolicyItem number="৩">
               পণ্য বা সেবা ক্রয়ের মাধ্যমেই পয়েন্ট সংগ্রহ করবে।
             </PolicyItem>
 
@@ -71,7 +71,7 @@ export default function PolicyPage() {
             </PolicyItem>
 
             <PolicyItem number="৬">
-              যে কোনো ইনকাম সি��্টেম থেকে উইথড্র করলে ৫% সার্ভিস চার্জ হিসেবে
+              যে কোনো ইনকাম সিস্টেম থেকে উইথড্র করলে ৫% সার্ভিস চার্জ হিসেবে
               কর্তন করা হবে।
             </PolicyItem>
 
@@ -92,11 +92,11 @@ export default function PolicyPage() {
             <PolicyItem number="১০">
               নিবন্ধিত কাস্টমার হয়ে প্রতিষ্ঠানের স্বার্থের পরিপন্থী তথা সিস্টেম
               ব্যতিরেকে ভিন্ন প্রক্রিয়ায় কোন কাজ করলে কাস্টমারের বিরুদ্ধে
-              তাৎক্ষনিক���াবে আইনানুগ ব্যবস্থা নেওয়া হবে।
+              তাৎক্ষণিকভাবে আইনানুগ ব্যবস্থা নেওয়া হবে।
             </PolicyItem>
 
             <PolicyItem number="১১">
-              নিবন্ধিত কাস্টমার হিস���বে আপনি অত্র প্রতিষ্ঠানের বিধি বিধান মেনে
+              নিবন্ধিত কাস্টমার হিসেবে আপনি অত্র প্রতিষ্ঠানের বিধি বিধান মেনে
               চলতে বাধ্য থাকবেন।
             </PolicyItem>
 
@@ -113,7 +113,7 @@ export default function PolicyPage() {
           </ol>
         </article>
 
-        <Separator className="my-14" />
+        <Separator className="my-10" />
 
         {/* ─── Section 2: গোপনীয়তা নীতি (Privacy Policy) ─── */}
         <article className="space-y-8">
@@ -166,7 +166,7 @@ export default function PolicyPage() {
               </p>
             </PolicySection>
 
-            <PolicySection title="তৃতীয় পক্ষের সাথে তথ���য ভাগাভাগি">
+            <PolicySection title="তৃতীয় পক্ষের সাথে তথ্য ভাগাভাগি">
               <p className="text-muted-foreground">
                 আমরা আপনার ব্যক্তিগত তথ্য তৃতীয় পক্ষের কাছে বিক্রি করি না।
                 তবে নিম্নোক্ত ক্ষেত্রে তথ্য শেয়ার করা হতে পারে:
@@ -200,13 +200,13 @@ export default function PolicyPage() {
           </div>
         </article>
 
-        <Separator className="my-14" />
+        <Separator className="my-10" />
 
         {/* ─── Section 3: তথ্য প্রক্রিয়াকরণ নীতি (Data Processing Policy) ─── */}
         <article className="space-y-8">
           <SectionHeader icon={Database} title="তথ্য প্রক্রিয়াকরণ নীতি (Data Processing Policy)" />
           <p className="text-sm text-muted-foreground">
-            Apple App Store নির্দেশিকা অনুসারে প্রণীত
+            আন্তর্জাতিক তথ্য সুরক্ষা মানদণ্ড অনুসারে প্রণীত
           </p>
 
           <div className="space-y-8">
@@ -270,7 +270,7 @@ export default function PolicyPage() {
                 </li>
                 <li>
                   অ্যাকাউন্ট বন্ধ করার অনুরোধের পর ৩০ দিনের মধ্যে ব্যক্তিগত তথ্য
-                  মুছে ফেলা হয়। তবে টিম সিকোয়েন্স ও সিরিয���াল ট্র্যাকিংয়ের
+                  মুছে ফেলা হয়। তবে টিম সিকোয়েন্স ও সিরিয়াল ট্র্যাকিংয়ের
                   জন্য আইডি নম্বর সংরক্ষিত থাকবে।
                 </li>
                 <li>
@@ -294,7 +294,7 @@ export default function PolicyPage() {
             <PolicySection title="ব্যবহারকারীর যোগ্যতা">
               <p className="text-muted-foreground">
                 সকল বয়সের ব্যবহারকারী আমাদের সেবা ব্যবহার করতে পারবেন।
-                অপ্রা���্তবয়স্ক ব্যবহারকারীদের ক্ষেত্রে অভিভাবকের তত্ত্বাবধানে
+                অপ্রাপ্তবয়স্ক ব্যবহারকারীদের ক্ষেত্রে অভিভাবকের তত্ত্বাবধানে
                 সেবা গ্রহণ করার পরামর্শ দেওয়া হয়। সকল ব্যবহারকারীর তথ্য
                 সমানভাবে সুরক্ষিত এবং গোপনীয়তার সাথে সংরক্ষণ করা হয়।
               </p>
@@ -303,9 +303,9 @@ export default function PolicyPage() {
             <PolicySection title="তথ্য মুছে ফেলার অনুরোধ">
               <p className="text-muted-foreground">
                 আপনি যেকোনো সময় আপনার ব্যক্তিগত তথ্য মুছে ফেলার অনুরোধ করতে
-                পারেন। এজন্য অ্যাপের সেটিংস থেকে &quot;অ��যাকাউন্ট মুছুন&quot; অপশন
+                পারেন। এজন্য অ্যাপের সেটিংস থেকে &quot;অ্যাকাউন্ট মুছুন&quot; অপশন
                 ব্যবহার করুন অথবা আমাদের সাথে সরাসরি যোগাযোগ করুন। অনুরোধ
-                প্রাপ���তির ৩০ দিনের মধ্যে আপনার ব্যক্তিগত তথ্য মুছে ফেলা হবে।
+                প্রাপ্তির ৩০ দিনের মধ্যে আপনার ব্যক্তিগত তথ্য মুছে ফেলা হবে।
                 তবে টিম সিকোয়েন্স ও সিরিয়াল ব্যবস্থাপনার জন্য আপনার আইডি
                 নম্বর সিস্টেমে সংরক্ষিত থাকবে।
               </p>
@@ -315,9 +315,8 @@ export default function PolicyPage() {
               <p className="text-muted-foreground">
                 আমাদের অ্যাপ ও ওয়েবসাইটে কুকিজ এবং অনুরূপ প্রযুক্তি ব্যবহার
                 করা হতে পারে অ্যাপের কার্যকারিতা উন্নত করার জন্য। আমরা তৃতীয়
-                পক্ষের বিজ্ঞাপন ট্র্যাকিং ব্যবহার করি না। Apple&apos;s App Tracking
-                Transparency (ATT) ফ্রেমওয়ার্ক অনুসারে, আমরা আপনার অনুমতি ছাড়া
-                কোনো ট্র্যাকিং করি না।
+                পক্ষের বিজ্ঞাপন ট্র্যাকিং ব্যবহার করি না। আমরা আপনার অনুমতি
+                ছাড়া কোনো ট্র্যাকিং করি না।
               </p>
             </PolicySection>
 
@@ -332,7 +331,7 @@ export default function PolicyPage() {
           </div>
         </article>
 
-        <Separator className="my-14" />
+        <Separator className="my-10" />
 
         {/* ─── Contact Info ─── */}
         <article className="space-y-5">
@@ -348,7 +347,7 @@ export default function PolicyPage() {
             <div className="space-y-2.5 text-muted-foreground">
               <p className="flex items-center gap-2.5">
                 <Mail className="size-4 text-primary/60 shrink-0" />
-                beetechopc@gmail.com
+                beetech24@gmail.com
               </p>
               <p className="flex items-center gap-2.5">
                 <Phone className="size-4 text-primary/60 shrink-0" />
@@ -362,7 +361,7 @@ export default function PolicyPage() {
           </div>
         </article>
 
-        <p className="mt-14 text-center text-xs text-muted-foreground/70">
+        <p className="mt-10 text-center text-xs text-muted-foreground/70">
           &copy; {new Date().getFullYear()} Beetech Communication OPC. সর্বস্বত্ব
           সংরক্ষিত।
         </p>

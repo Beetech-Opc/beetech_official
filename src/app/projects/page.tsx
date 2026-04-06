@@ -58,10 +58,10 @@ const projects = [
 
 export default function ProjectsPage() {
   return (
-    <section className="py-20 sm:py-24">
+    <section className="pt-8 pb-16 sm:pt-12 sm:pb-20">
       <div className="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
         {/* Header */}
-        <div className="mx-auto mb-16 max-w-2xl text-center">
+        <div className="mx-auto mb-12 max-w-2xl text-center">
           <span className="inline-block text-sm font-semibold uppercase tracking-widest text-primary mb-3">
             Our Ecosystem
           </span>
