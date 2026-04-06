@@ -150,7 +150,7 @@ export default function ContactPage() {
           <Card className="overflow-hidden border-border/60">
             <div className="grid lg:grid-cols-2">
               {/* Map placeholder */}
-              <div className="relative bg-gradient-to-br from-muted to-muted/50 p-8 sm:p-12 flex flex-col justify-center min-h-[280px]">
+              <div className="relative bg-gradient-to-br from-muted to-muted/50 p-6 sm:p-12 flex flex-col justify-center min-h-[240px] sm:min-h-[280px]">
                 <div className="absolute inset-0 opacity-[0.03]"
                   style={{
                     backgroundImage: "radial-gradient(circle, currentColor 1px, transparent 1px)",
@@ -186,7 +186,7 @@ export default function ContactPage() {
               </div>
 
               {/* Quick info */}
-              <div className="p-8 sm:p-12 flex flex-col justify-center space-y-6">
+              <div className="p-6 sm:p-12 flex flex-col justify-center space-y-6">
                 <h3 className="text-xl font-bold">Get in Touch</h3>
                 <p className="text-muted-foreground leading-relaxed">
                   Whether you want to discuss a partnership, have questions about our

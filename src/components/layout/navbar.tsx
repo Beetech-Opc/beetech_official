@@ -3,7 +3,10 @@
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useState, useEffect } from "react";
-import { Menu, X } from "lucide-react";
+import { Menu, X, Smartphone } from "lucide-react";
+
+const BEETECH_APP =
+  "https://play.google.com/store/apps/details?id=com.beetech.beetech_customer&pcampaignid=web_share";
 import { Button } from "@/components/ui/button";
 import { cn } from "@/lib/utils";
 
@@ -75,7 +78,10 @@ export function Navbar() {
         {/* Desktop CTA */}
         <div className="hidden md:block">
           <Button size="sm" className="rounded-lg shadow-md shadow-primary/20 hover:shadow-lg hover:shadow-primary/25 transition-all" asChild>
-            <Link href="/contact">Get in Touch</Link>
+            <a href={BEETECH_APP} target="_blank" rel="noopener noreferrer">
+              <Smartphone className="size-3.5" />
+              Get the App
+            </a>
           </Button>
         </div>
 
@@ -119,7 +125,10 @@ export function Navbar() {
             );
           })}
           <Button size="sm" className="mt-3 rounded-lg" asChild>
-            <Link href="/contact">Get in Touch</Link>
+            <a href={BEETECH_APP} target="_blank" rel="noopener noreferrer">
+              <Smartphone className="size-3.5" />
+              Get the App
+            </a>
           </Button>
         </nav>
       </div>

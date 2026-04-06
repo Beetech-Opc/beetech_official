@@ -85,6 +85,15 @@ main {
   box-shadow: 0 0 60px -12px oklch(0.50 0.20 264 / 0.25);
 }
 
+/* Hide scrollbar but keep scroll */
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
 /* Gradient text utility */
 .text-gradient {
   background: linear-gradient(135deg, oklch(0.50 0.20 264), oklch(0.55 0.22 280));
